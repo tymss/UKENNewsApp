@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#000000</color>
+    <color name="readColor">#888888</color>
+    <color name="keyColor">#FF4077</color>
+    <color name="tabBackColor">#ffffff</color>
+    <color name="listBackColor">#fafafa</color>
+    <color name="loadColor">#8a8a8a</color>
+    <color name="themeBlue">#ff00a0f1</color>
+    <color name="themeRed">#ffff2020</color>
+    <color name="themeBlack">#ff000000</color>
+</resources>

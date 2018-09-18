@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorButtonNormal">#ffffff</item>
+        <item name="editTextColor">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MenuTheme" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:colorBackground">#ff00a0f1</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+</resources>

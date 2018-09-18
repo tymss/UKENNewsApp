@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gettag_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00a0f1">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_REC"
+            android:background="@drawable/gettag_selector"
+            android:text="推荐"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentLeft="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_GJ"
+            android:background="@drawable/gettag_selector"
+            android:text="国际"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_centerInParent="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_SH"
+            android:background="@drawable/gettag_selector"
+            android:text="社会"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_DY"
+            android:background="@drawable/gettag_selector"
+            android:text="电影"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentLeft="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_DS"
+            android:background="@drawable/gettag_selector"
+            android:text="电视"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_centerInParent="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_MX"
+            android:background="@drawable/gettag_selector"
+            android:text="明星"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_YY"
+            android:background="@drawable/gettag_selector"
+            android:text="音乐"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentLeft="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_ZQ"
+            android:background="@drawable/gettag_selector"
+            android:text="证券"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_centerInParent="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_TY"
+            android:background="@drawable/gettag_selector"
+            android:text="体育"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_YX"
+            android:background="@drawable/gettag_selector"
+            android:text="游戏"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentLeft="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_DM"
+            android:background="@drawable/gettag_selector"
+            android:text="动漫"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_centerInParent="true"
+            />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/b_XZ"
+            android:background="@drawable/gettag_selector"
+            android:text="星座"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/tagcolor"
+            android:button="@null"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@drawable/ic_confirm"/>
+
+</LinearLayout>
